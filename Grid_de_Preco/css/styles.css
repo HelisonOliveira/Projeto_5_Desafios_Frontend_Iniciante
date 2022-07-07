@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+
+body{
+    width: 600px;
+    height: 400px;
+    margin: 5% 25%;
+    background: #fffeff;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px grey;
+    text-align: justify;
+    font-family: 'ABeeZee', sans-serif;;
+    /* border: 1px solid red;*/
+}
+
+header{
+    display: block;
+    height: 200px;
+    /*border: 1px solid red;  */
+}
+
+section{
+    display: flex;
+    height: 200px;
+}
+
+button{
+    margin-top: 15px;
+    background: #bedf32;
+    padding: 15px 0px;
+    border: none;
+    border-radius: 5px;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 90px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    /* border: 1px solid red;*/
+}
+
+p{
+    font-size: 0.73em;
+}
+
+header p{
+    color: rgb(162, 161, 161);
+}
+
+h1{
+    color:#2cb3af;
+    padding-top: 30px;
+    margin-left: 40px;
+    
+}
+
+header h2{
+    color: #bedf32;
+}
+
+h2{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 0.99em;
+}
+
+.left{
+    width: 50%;
+    background: #2cb3af;
+    color: white;
+    
+    border-bottom-left-radius: 10px;
+    /*border: 1px solid red; */
+}
+
+.rigth{
+
+    width: 50%;
+    background: #4bbcbf;
+    color: white;
+    border-bottom-right-radius: 10px;
+    /*border: 1px solid red; */
+}
+.aling{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.acess{
+    margin-top: 10px;
+}
+
+.bold{
+    font-size: 2em;
+}
+
+.value{
+    display: inline;
+    margin-right: 10px;
+}
+
+button:hover{
+    margin: 4%;
+    padding: 20px;
+}
