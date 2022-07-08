@@ -1,0 +1,36 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    body{
+        margin: 0 auto;
+        width: 300px;
+        height: auto;
+
+    }
+
+    header{
+        width: auto;
+        height: auto;
+        padding: 1px 0px 25px 0px;
+    }
+
+    .left{
+        width: 100%;
+        height: auto;
+        border-bottom-left-radius: 0;
+        padding: 1px 0px 15px 0px;
+    }
+
+    .rigth{
+        width: 100%;
+        height: auto;
+        border-bottom-left-radius: 10px;
+        padding: 1px 0px 15px 0px;
+    }
+    
+    section{
+        display:block;
+    }
+
+}
+
