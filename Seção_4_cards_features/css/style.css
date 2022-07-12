@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;;
+}
+
+header{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    margin: 0 auto;
+    border: 1px solid red;
+    color: #818184;
+    /**/
+}
+
+h1{
+    display: block;
+    text-align: center;
+    border: 1px solid red;
+    /**/
+}
+
+#by{
+    color: black;
+
+}
+
+header p{
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+    font-size: 0.8em;
+    border: 1px solid red;
+    /**/
+
+}
+
+section{
+    margin: 0 auto;
+    width: 800px;
+    border: 1px solid red;
+    /**/
+}
+
+h2{
+    font-size: 1em;
+}
+
+section p{
+    color: #818184;
+    font-size: 0.5em;   
+}
+
+div{
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 1px solid red;
+    /**/
+}
+
+#team_builder{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 200px;
+}
+
+#calculator{
+    display: flexbox;
+    position: relative;
+    float: right;
+    width: 200px;
+}
+
+#supervisor{
+    display: flexbox;
+    position: relative;
+    float: left;
+    width: 200px;
+}
+
+#karma{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 200px;
+}
+
+
+
