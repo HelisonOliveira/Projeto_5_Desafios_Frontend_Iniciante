@@ -1,0 +1,33 @@
+@media only screen and (max-width: 770px) {
+
+    #supervisor{
+        margin-top: 10px;
+    }
+
+    #calculator{
+        margin-top: 10px;
+    }
+    #karma{
+        margin-top: 180px;
+    }
+
+}
+
+@media only screen and (max-width: 560px) {
+
+    .cards{
+        display: block;
+    }
+
+    #supervisor{
+        display: block;
+    }
+    
+    #calculator{
+        display: block;
+    }
+    #karma{
+        display: block;
+        margin-top: 350px;
+    }    
+}
