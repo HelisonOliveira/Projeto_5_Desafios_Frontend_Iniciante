@@ -1,33 +1,55 @@
-@media only screen and (max-width: 770px) {
-
-    #supervisor{
-        margin-top: 10px;
+/* @media only screen and (min-width: 580px) {
+    
+    header p{
+        width: auto;
+        padding: 0px 30px;
     }
-
-    #calculator{
-        margin-top: 10px;
-    }
-    #karma{
-        margin-top: 180px;
-    }
-
-}
-
-@media only screen and (max-width: 560px) {
 
     .cards{
         display: block;
     }
 
     #supervisor{
-        display: block;
+        margin-top: 10px;
+        margin-left: 110px;
     }
     
     #calculator{
-        display: block;
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-right: 110px;   
     }
     #karma{
+        margin-top: 180px;
+    }    
+} */
+
+@media only screen and (max-width: 500px) {
+    
+    header{
+        width: auto;
+        padding: 0px 30px;
+        min-width: 420px;
+        border: 1px solid red;
+        font-size: 0.8em;
+
+    }
+
+    .cards{
         display: block;
+    }
+
+    #supervisor{
+        margin-top: 10px;
+        margin-left: 90px;
+    }
+    
+    #calculator{
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-right: 90px;   
+    }
+    #karma{
         margin-top: 350px;
     }    
 }
