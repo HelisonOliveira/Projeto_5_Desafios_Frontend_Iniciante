@@ -1,4 +1,4 @@
-/* @media only screen and (min-width: 580px) {
+@media only screen and (max-width: 790px) {
     
     header p{
         width: auto;
@@ -22,15 +22,14 @@
     #karma{
         margin-top: 180px;
     }    
-} */
+}
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 580px) {
     
     header{
         width: auto;
         padding: 0px 30px;
         min-width: 420px;
-        border: 1px solid red;
         font-size: 0.8em;
 
     }
